@@ -1,0 +1,47 @@
+#section1 {
+    background-image: url("https://hwbenny.github.io/assignment1011/assignment3-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2 {
+    background-image: url("https://hwbenny.github.io/assignment1011/assignment3-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#first {
+    background-image: url("https://hwbenny.github.io/assignment1011/assignment3-2.jpg");
+    min-height: 500px;
+    width: 1415px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(70%);
+}
+
+#section3 {
+    background-image: url("https://hwbenny.github.io/assignment1011/assignment3-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section4 {
+    background-image: url("https://hwbenny.github.io/assignment1011/assignment3-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    width: 1415px;
+    filter: blur(5px);
+    transition: filter 0.5s;
+}
+
+#section4:hover {
+    filter: blur(0);
+}
